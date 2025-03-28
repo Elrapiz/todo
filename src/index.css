@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.layer--grow-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 1rem;
+}
